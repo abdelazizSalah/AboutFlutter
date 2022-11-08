@@ -5,6 +5,9 @@
 > 
 > flutter upgrade
 
+## to get the version of flutter 
+> flutter --version
+
 ## To get the connected devices
 > flutter devices
 
@@ -23,3 +26,12 @@
 > flutter build apk 
 
 
+## to build web app 
+> flutter build web 
+
+## to run web apps  we need to install nodejs servers 
+>npm install -g http-server
+
+## to run the server on the local host 
+change directory to /build/web and run the server on localhost with:
+> npx http-server 
